@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#board {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.tile {
+	float: left;
+	height: 36px;
+	width: 36px;
+}
+
+.brownTile {
+	background-color: saddlebrown;
+}
+
+.whiteTile {
+	background-color: beige;
+}
+
+.checker {
+	z-index: 1000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 35px;
+	width: 35px;
+	background: no-repeat center;
+}
+
+.redChecker {
+	background-image: url('redChecker.png');
+}
+
+.blackChecker {
+	background-image: url('blackChecker.png');
+}
+
+.selectedChecker {
+	border: solid 1px;
+}
